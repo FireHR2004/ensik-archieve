@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.label{
+    padding-right: 250px;
+}
+
+.register table tr td{
+    padding-top: 100px;
+}
+
+.tombol{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-inline: 225px;
+    margin-top: 100px;
+    margin-inline: 27%;
+    border: 3px solid #146C94;
+    color: #146C94;
+    text-transform: uppercase;
+    font-weight:700;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.tombol:hover{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-inline: 225px;
+    margin-top: 100px;
+    margin-inline: 27%;
+    border: 3px solid #146C94;
+    color: #ffffff;
+    background-color: #146C94;
+    text-transform: uppercase;
+    font-weight:700;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
